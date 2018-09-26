@@ -1,0 +1,113 @@
+body{
+    font-family: Arial, sans-serif;
+}
+#logo{
+    width: 48%;
+    height: auto;
+}
+a{
+    text-decoration: none;
+    font-size: 13px;
+}
+li{
+    list-style: none;
+}
+#container{
+    width: 580px;
+    margin: 165px auto;
+    text-align: center;
+}
+form{
+    position: relative;
+}
+input[type="search"]{
+    width: 500px;
+    height: 45px;
+    padding: 7px;
+    margin:25px 0 18px ;
+    border: solid 1px #ccc;
+    font-size: 16px;
+    -webkit-box-shadow: 0 6px 6px -6px rgb(63, 61, 61);
+	   -moz-box-shadow: 0 6px 6px -6px rgb(63, 61, 61);
+	        box-shadow: 0 6px 6px -6px rgb(63, 61, 61);
+}
+input[type="search"]:hover{
+    border-color: #aaa;
+}
+input[type="submit"]{
+    background: #f8f8f8;
+    height: 35px;
+    width: 150px;
+    color: #757575;
+    border: none;
+    padding: 5px;
+    font-size: 13px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    margin: 15px 5px;
+    
+    border-radius: 3%;
+}
+input[type="submit"]:hover{
+    cursor: pointer;
+    color: #222;
+    border: 1px solid #aaa;
+}
+small{
+    display: block;
+    margin: 20px 0 0 0;
+    font-size: 13px;
+}
+a:link, a:visited{
+    color: dodgerblue;
+}
+nav#header{
+    text-align: right;
+}
+nav#header ul li{
+    display: inline;
+}
+nav#header ul li a:link,
+nav#header ul li a:visited,
+footer ul li a:link,
+footer ul li a:visited{
+    color:#555;
+    padding: 10px;
+}
+small a:hover,
+nav#header ul li a:hover,
+footer ul li a:hover{
+    text-decoration: underline;
+}
+footer{
+    background: #eee;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+footer nav{
+    padding-right: 5%;
+}
+footer nav ul li{
+    display: inline;
+}
+footer nav ul{
+    float: left;
+}
+footer nav ul#lista2{
+    float: right;
+    text-align: right;
+}
+footer.clearfix{
+    content: "";
+    display: table;
+    clear: both;
+}
+.micro {
+    font-size: 1.4rem;
+    color: dodgerblue;
+}
+.micro:hover{
+    cursor: pointer;
+}
+
